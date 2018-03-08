@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header start*/
+.header {
+    min-height: 100px;
+    background-color: #121B2A;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+       
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+
+
+.nav_bar {
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+}
+
+.nav_bar ul{
+    list-style: none;
+}
+
+.nav_bar ul li{
+    float: left;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.nav_bar ul li a:hover{
+    color: yellow;
+}
+/*header ends*/
+
+/*banner starts*/
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.wrapper {
+}
+
+.banner_text {
+    width: 50%;
+    margin-top: 100px;
+}
+.banner_text h3{
+    color: white;
+    font-size: 40px;
+}
+.banner_text h1{
+    color: #00E640;
+}
+.banner_text p{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.banner_text button{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.banner_text button:hover{
+    background-color: aqua;
+    color: #D35400;
+}
+
+/*banner ends*/
+
+/*service starts*/
+
+.service {
+    overflow: hidden;
+    min-height: 300px;
+    background-color: #121B2C;
+    padding: 70px;
+}
+
+.service_section {
+    overflow: hidden;
+}
+
+.service1 {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+.service1:last-child{
+    border-right: none;
+}
+
+.content {
+    overflow: hidden;
+}
+.content_img{
+    width: 30%;
+    float: left;
+}
+.content_txt{
+    width: 60%;
+    float: right;
+}
+
+/*service ends*/
+
+/*testimoy starts*/
+
+.testimony {
+    min-height: 30px;
+    background-color: #040811;
+    color: white;
+    overflow: hidden;
+    padding: 50 0 px;
+}
+
+.contact {
+}
+
+.contact1 {
+    width: 30%;
+    float: left;
+}
+.contact1 span{
+    color: cornflowerblue
+}
+
+.contact_img{
+    width: 100%;
+    
+}
+
+.contact_txt{
+    width: 55%;
+    float: right;
+}
+/*testimoy ends*/
+
+/*footer starts*/
+
+.footer{
+    min-height: 100px;
+    background-color: #121B2C;
+    overflow: hidden;
+    color: white;
+}
+
+.footer_nav{
+    width: 60%;
+    float: left;
+}
+.footer_nav ul{
+    list-style: none;
+}
+.footer_nav ul li {
+    float: left;
+}
+.footer_nav a{
+    clear: both;
+}
+.footer logo{
+    width: 60%;
+    float: right;
+}
+
+/*footer ends*/
